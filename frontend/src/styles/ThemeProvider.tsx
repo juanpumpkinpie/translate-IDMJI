@@ -9,18 +9,14 @@ declare module "styled-components" {
       "primary-200": string;
       secondary: string;
       background: string;
+      gold: string;
       "background-dark": string;
       shadows: string;
       black: string;
       autumn: string;
       "green-100": string;
-      "green-200": string;
-      "green-300": string;
       "yellow-100": string;
-      "yellow-200": string;
       "purple-100": string;
-      "purple-200": string;
-      "purple-300": string;
       amber: string;
       pink: string;
       white: string;
@@ -39,23 +35,19 @@ declare module "styled-components" {
 
 export const theme: DefaultTheme = {
   colors: {
-    primary: "#1a62ac",
-    "primary-100": "#7bacdc",
-    "primary-200": "#e2ecf7",
-    secondary: "#E26162",
+    primary: "#110484",
+    "primary-100": "#0095eb",
+    "primary-200": "#007cc3",
+    secondary: "#00569f",
     background: "#f6f6f6",
-    "background-dark": "#BEBFBF ",
+    gold: "#987f44",
+    "background-dark": "#57575b",
     shadows: "#e2e2e3",
     black: "#333944",
     autumn: "#cc686e",
-    "green-100": "#c4f3c4",
-    "green-200": "#6E9D57",
-    "green-300": "#7FBD8B",
-    "yellow-100": " #f3edb6",
-    "yellow-200": " #DCBD7B",
-    "purple-100": "#d3d4fa ",
-    "purple-200": "#548894 ",
-    "purple-300": " #bbb5f5 ",
+    "green-100": "#7bdcb5",
+    "yellow-100": "#fcb900",
+    "purple-100": "#9b51e0",
     amber: "#F8AC45",
     pink: " #FFBBD7",
     white: "#FFFFFF",
